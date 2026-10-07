@@ -1,1 +1,24 @@
+name = "caldav-server"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
 
+[[d1_databases]]
+binding = "DB"
+database_name = "caldav_db"
+database_id = "0e85b82e-f728-41c4-aa7c-e4942b1daaf3"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "dbf38bc52b1b497b8fe272181bec0f7d"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "caldav-calendars"
+
+[vars]
+USERNAME = "WANGP"
+PASSWORD = "Wang1976"
+BASE_URL = "https://caldav.821819.xyz"
+
+[observability]
+enabled = false
