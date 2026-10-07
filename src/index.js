@@ -1,4 +1,4 @@
-/**
+/**  
  * CalDAV Server on Cloudflare Workers
  * Storage: D1 (metadata) + R2 (iCalendar files) + KV (sessions)
  */
