@@ -18,7 +18,7 @@ bucket_name = "caldav-calendars"
 [vars]
 USERNAME = "WANGP"
 PASSWORD = "Wang1976"
-BASE_URL = "https://caldav1.821819.xyz"
+BASE_URL = "https://caldav.821819.xyz"
 
 [observability]
 enabled = false
